@@ -15,3 +15,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20210615190721-d04028783cf1 // indirect
 	golang.org/x/tools v0.1.3 // indirect
 )
+
+replace (
+    github.com/caddyserver/caddy/v2 => github.com/uptimerobot/caddy/v2 v2.3.1
+)
